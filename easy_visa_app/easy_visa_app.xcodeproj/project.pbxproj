@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		237F0BCC70CAF3E7DA95AD77 /* Pods_easy_visa_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B177095017AF7337A4A7F108 /* Pods_easy_visa_app.framework */; };
+		F188603B1F8CF1FA00136726 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1F683E81F890C9D000E6A91 /* GoogleService-Info.plist */; };
+		F188603D1F92958600136726 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188603C1F92958600136726 /* HomeViewController.swift */; };
+		F1FA74331F88C7F200B690DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA74321F88C7F200B690DE /* AppDelegate.swift */; };
+		F1FA74351F88C7F200B690DE /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA74341F88C7F200B690DE /* WelcomeViewController.swift */; };
+		F1FA74381F88C7F200B690DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FA74361F88C7F200B690DE /* Main.storyboard */; };
+		F1FA743A1F88C7F300B690DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1FA74391F88C7F300B690DE /* Assets.xcassets */; };
+		F1FA743D1F88C7F300B690DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FA743B1F88C7F300B690DE /* LaunchScreen.storyboard */; };
+		F1FA74481F8902E400B690DE /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA74471F8902E400B690DE /* TextFieldModel.swift */; };
+		F1FA744A1F8903EE00B690DE /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA74491F8903EE00B690DE /* CategoryModel.swift */; };
+		F1FA744E1F8904D800B690DE /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FA744D1F8904D800B690DE /* FormModel.swift */; };
+		F1FEA31B1F89128700016D33 /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA31A1F89128700016D33 /* FormViewModel.swift */; };
+		F1FEA31E1F8B666500016D33 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FEA31D1F8B666500016D33 /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90BA9D393CF0031564FA6C89 /* Pods-easy_visa_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easy_visa_app.release.xcconfig"; path = "Pods/Target Support Files/Pods-easy_visa_app/Pods-easy_visa_app.release.xcconfig"; sourceTree = "<group>"; };
+		B08161617B93F38EB1B4C05B /* Pods-easy_visa_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-easy_visa_app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-easy_visa_app/Pods-easy_visa_app.debug.xcconfig"; sourceTree = "<group>"; };
+		B177095017AF7337A4A7F108 /* Pods_easy_visa_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_easy_visa_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F188603C1F92958600136726 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F1F683E81F890C9D000E6A91 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1FA742F1F88C7F200B690DE /* easy_visa_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easy_visa_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1FA74321F88C7F200B690DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1FA74341F88C7F200B690DE /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F1FA74371F88C7F200B690DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1FA74391F88C7F300B690DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1FA743C1F88C7F300B690DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1FA743E1F88C7F300B690DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1FA74471F8902E400B690DE /* TextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModel.swift; sourceTree = "<group>"; };
+		F1FA74491F8903EE00B690DE /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		F1FA744D1F8904D800B690DE /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
+		F1FEA31A1F89128700016D33 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		F1FEA31D1F8B666500016D33 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1FA742C1F88C7F200B690DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237F0BCC70CAF3E7DA95AD77 /* Pods_easy_visa_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F528A5DAB532B7264A8A213 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B08161617B93F38EB1B4C05B /* Pods-easy_visa_app.debug.xcconfig */,
+				90BA9D393CF0031564FA6C89 /* Pods-easy_visa_app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1FA74261F88C7F200B690DE = {
+			isa = PBXGroup;
+			children = (
+				F1FEA31D1F8B666500016D33 /* Utilities.swift */,
+				F1FEA3191F89126F00016D33 /* view_model */,
+				F1FA74461F88C85D00B690DE /* view */,
+				F1FA74441F88C84600B690DE /* model */,
+				F1FA74311F88C7F200B690DE /* easy_visa_app */,
+				F1FA74301F88C7F200B690DE /* Products */,
+				3F528A5DAB532B7264A8A213 /* Pods */,
+				FB3F543D7EA19D2A8DE9B890 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FA74301F88C7F200B690DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA742F1F88C7F200B690DE /* easy_visa_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1FA74311F88C7F200B690DE /* easy_visa_app */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA74321F88C7F200B690DE /* AppDelegate.swift */,
+				F1FA74391F88C7F300B690DE /* Assets.xcassets */,
+				F1F683E81F890C9D000E6A91 /* GoogleService-Info.plist */,
+				F1FA743E1F88C7F300B690DE /* Info.plist */,
+			);
+			path = easy_visa_app;
+			sourceTree = "<group>";
+		};
+		F1FA74441F88C84600B690DE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA74471F8902E400B690DE /* TextFieldModel.swift */,
+				F1FA74491F8903EE00B690DE /* CategoryModel.swift */,
+				F1FA744D1F8904D800B690DE /* FormModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F1FA74461F88C85D00B690DE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F1FA743B1F88C7F300B690DE /* LaunchScreen.storyboard */,
+				F1FA74361F88C7F200B690DE /* Main.storyboard */,
+				F1FA74341F88C7F200B690DE /* WelcomeViewController.swift */,
+				F188603C1F92958600136726 /* HomeViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F1FEA3191F89126F00016D33 /* view_model */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEA31A1F89128700016D33 /* FormViewModel.swift */,
+			);
+			path = view_model;
+			sourceTree = "<group>";
+		};
+		FB3F543D7EA19D2A8DE9B890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B177095017AF7337A4A7F108 /* Pods_easy_visa_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1FA742E1F88C7F200B690DE /* easy_visa_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1FA74411F88C7F300B690DE /* Build configuration list for PBXNativeTarget "easy_visa_app" */;
+			buildPhases = (
+				807EBC7053957BB3410F5DC0 /* [CP] Check Pods Manifest.lock */,
+				F1FA742B1F88C7F200B690DE /* Sources */,
+				F1FA742C1F88C7F200B690DE /* Frameworks */,
+				F1FA742D1F88C7F200B690DE /* Resources */,
+				A23CBFF3565FD9E0D5C143F4 /* [CP] Embed Pods Frameworks */,
+				86E080BE2CEFA6839D7F2ADB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = easy_visa_app;
+			productName = easy_visa_app;
+			productReference = F1FA742F1F88C7F200B690DE /* easy_visa_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1FA74271F88C7F200B690DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "ido braunstain";
+				TargetAttributes = {
+					F1FA742E1F88C7F200B690DE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F1FA742A1F88C7F200B690DE /* Build configuration list for PBXProject "easy_visa_app" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1FA74261F88C7F200B690DE;
+			productRefGroup = F1FA74301F88C7F200B690DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1FA742E1F88C7F200B690DE /* easy_visa_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1FA742D1F88C7F200B690DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FA743D1F88C7F300B690DE /* LaunchScreen.storyboard in Resources */,
+				F188603B1F8CF1FA00136726 /* GoogleService-Info.plist in Resources */,
+				F1FA743A1F88C7F300B690DE /* Assets.xcassets in Resources */,
+				F1FA74381F88C7F200B690DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		807EBC7053957BB3410F5DC0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-easy_visa_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E080BE2CEFA6839D7F2ADB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easy_visa_app/Pods-easy_visa_app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23CBFF3565FD9E0D5C143F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-easy_visa_app/Pods-easy_visa_app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-easy_visa_app/Pods-easy_visa_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1FA742B1F88C7F200B690DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1FEA31B1F89128700016D33 /* FormViewModel.swift in Sources */,
+				F1FA74481F8902E400B690DE /* TextFieldModel.swift in Sources */,
+				F1FEA31E1F8B666500016D33 /* Utilities.swift in Sources */,
+				F188603D1F92958600136726 /* HomeViewController.swift in Sources */,
+				F1FA74351F88C7F200B690DE /* WelcomeViewController.swift in Sources */,
+				F1FA744E1F8904D800B690DE /* FormModel.swift in Sources */,
+				F1FA74331F88C7F200B690DE /* AppDelegate.swift in Sources */,
+				F1FA744A1F8903EE00B690DE /* CategoryModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1FA74361F88C7F200B690DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FA74371F88C7F200B690DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1FA743B1F88C7F300B690DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1FA743C1F88C7F300B690DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1FA743F1F88C7F300B690DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1FA74401F88C7F300B690DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1FA74421F88C7F300B690DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08161617B93F38EB1B4C05B /* Pods-easy_visa_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N26PUTCZF2;
+				INFOPLIST_FILE = easy_visa_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "idobry.easy-visa-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1FA74431F88C7F300B690DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90BA9D393CF0031564FA6C89 /* Pods-easy_visa_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N26PUTCZF2;
+				INFOPLIST_FILE = easy_visa_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "idobry.easy-visa-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1FA742A1F88C7F200B690DE /* Build configuration list for PBXProject "easy_visa_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FA743F1F88C7F300B690DE /* Debug */,
+				F1FA74401F88C7F300B690DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1FA74411F88C7F300B690DE /* Build configuration list for PBXNativeTarget "easy_visa_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1FA74421F88C7F300B690DE /* Debug */,
+				F1FA74431F88C7F300B690DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1FA74271F88C7F200B690DE /* Project object */;
+}
